@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ols-Node extension for KNIME Workbench
+Bundle-SymbolicName: ols;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-ClassPath: ols.jar
+Bundle-Activator: ols.OLSNodePlugin
+Bundle-Vendor: Antonio Di Mauro
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base
+Bundle-ActivationPolicy: lazy
+Export-Package: ols
+Import-Package: port
+

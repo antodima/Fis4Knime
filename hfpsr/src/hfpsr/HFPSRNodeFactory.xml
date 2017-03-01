@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knimeNode icon="./default.png" type="Source"
+	xmlns="http://knime.org/node/v2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://knime.org/node/v2.10 http://knime.org/node/v2.10.xsd">
+	<name>Hfpsr</name>
+
+	<shortDescription>
+		Hfpsr generates a configuration file
+		for a FIS.
+	</shortDescription>
+
+	<fullDescription>
+		<intro>
+			Hfpsr generates a configuration file for a FIS
+			(Fuzzy
+			Inference
+			System).
+			This Node uses HFPSR FisPro function.
+			Click
+			<a
+				href="https://www7.inra.fr/mia/M/fispro/fisprodocen/LEARNING/node2.html#part">here</a>
+			for more informations.
+		</intro>
+
+
+		<option name="Number of fuzzy sets for each input variable">the number of fuzzy sets for each input variable
+			(string argument within which numbers are delimited by spaces)
+		</option>
+		<option name="Input hierarchy type">the input hierarchy type: 1 for hfp, 2 for
+			k-means, 3 for regular
+		</option>
+		<option name="Tolerance value for input">if value&lt;1, the tolerance value, used to group
+			input data into unique values, or, if value&gt;1, the number of
+			groups
+			for the k-means algorithm (only used in the hfp hierarchy)
+		</option>
+		<option name="Number of fuzzy sets for each output variable">the number of fuzzy sets for each output variable
+			(if nmf=0 output crisp)
+		</option>
+		<option name="Output hierarchy type">the output hierarchy type: 1 for hfp, 2 for
+			k-means, 3 for regular
+		</option>
+		<option name="Defuzzification operator">the defuzzification operator: area, MeanMax or
+			sugeno
+		</option>
+		<option name="Disjunction operator">the disjunction operator: sum or max</option>
+		<option name="Tolerance value for output">if value&lt;1, the tolerance value, used to group
+			output data into unique values, or if value&gt;1, the number of
+			groups
+			for the k-means algorithm if value&gt;1 (only used in the hfp
+			hierarchy)
+		</option>
+		<option name="Sets the Classif='yes'">sets the Classif='yes' output option (Valid only
+			when #output mf=0)</option>
+	</fullDescription>
+
+	<ports>
+		<inPort index="0" name="Dataset">Dataset</inPort>
+		<!-- possibly more input ports here -->
+		<outPort index="0" name="Configuration Fis Model">Configuration Fis Model</outPort>
+		<!-- possibly more output ports here -->
+	</ports>
+	<!--<views> <view index="0" name="name of first view">Description of first 
+		view...</view> view index="1" name="name of second view">Description of second 
+		view...</view </views> -->
+</knimeNode>

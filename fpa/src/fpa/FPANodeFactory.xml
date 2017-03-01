@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knimeNode icon="./default.png" type="Source"
+	xmlns="http://knime.org/node/v2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://knime.org/node/v2.10 http://knime.org/node/v2.10.xsd">
+	<name>Fpa</name>
+
+	<shortDescription>
+		Fpa generates a FIS.
+	</shortDescription>
+
+	<fullDescription>
+		<intro>
+			Fpa generates a FIS using "FPA"
+			FisPro Function.
+			It generates the FIS
+			from a configuration (e.g.
+			configuration generated
+			by Hfpsr Node) and a
+			dataset.
+			Click
+			<a
+				href="https://www7.inra.fr/mia/M/fispro/fisprodocen/LEARNING/node3.html#ind">here</a>
+			for more informations.
+		</intro>
+
+		<option
+			name="Strategy to determine the data subset used to initialize the rule conclusion, 0 for MIN, 1 for DEC (default value)">the strategy to determine the data subset used to initialize the
+			rule conclusion
+		</option>
+		<option
+			name="Minimum matching degree for rule generation (default value: 0.3)">the strategy to determine the data subset used to
+			initialize the
+			rule conclusion
+		</option>
+		<option name="Minimum cardinality (default value: 3)">the minimum cardinality
+		</option>
+		<option
+			name="Activity threshold for performance computation (default value: 0.1)">the activity threshold for performance computation
+		</option>
+	</fullDescription>
+
+	<ports>
+		<inPort index="0" name="Configuration Fis Model">Configuration Fis Model</inPort>
+		<inPort index="1" name="Dataset">Dataset</inPort>
+		<outPort index="0" name="Fis Model">Fis Model</outPort>
+	</ports>
+</knimeNode>

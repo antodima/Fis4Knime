@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knimeNode icon="./default.png" type="Source"
+	xmlns="http://knime.org/node/v2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://knime.org/node/v2.10 http://knime.org/node/v2.10.xsd">
+	<name>FisPro Writer</name>
+
+	<shortDescription>
+		FisPro Writer save FIS model in a directory of
+		filesystem.
+	</shortDescription>
+
+	<fullDescription>
+		<intro>FisPro Writer save FIS model in a directory of filesystem.
+		</intro>
+
+
+		<option name="Insert output directory">insert the output directory</option>
+		<option name="Insert output filename">insert the output filename</option>
+	</fullDescription>
+
+	<ports>
+		<inPort index="0" name="Fis Model">Fis Model</inPort>
+	</ports>
+</knimeNode>

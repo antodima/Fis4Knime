@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   
+   <extension
+         point="org.knime.workbench.repository.nodes">
+      <node
+            category-path="/"
+            factory-class="hfpsr.HFPSRNodeFactory"
+            id="hfpsr.HFPSRNodeFactory"/>
+   </extension>
+<!--   
+   <extension
+         point="org.knime.workbench.repository.categories">
+      <category
+            description="Fuzzy Inference System"
+            icon="default.png"
+            level-id="FisPro"
+            name="Fuzzy Inference System"
+            path="/Analytics"/>
+   </extension>
+-->   
+   <extension
+         point="org.knime.core.PortType">
+      <portType
+            color="#00b5df"
+            hidden="false"
+            name="fisModelPortType"
+            objectClass="port.FisModelPortObject"
+            objectSerializer="port.FisModelPortObject$Serializer"
+            specClass="port.FisModelPortObjectSpec"
+            specSerializer="port.FisModelPortObjectSpec$Serializer">
+      </portType>
+   </extension>  
+   
+</plugin>

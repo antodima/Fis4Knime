@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Wm-Node extension for KNIME Workbench
+Bundle-SymbolicName: wm;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-ClassPath: wm.jar
+Bundle-Activator: wm.WMNodePlugin
+Bundle-Vendor: Antonio Di Mauro
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base,
+ org.knime.core
+Bundle-ActivationPolicy: lazy
+Export-Package: wm
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: port
+

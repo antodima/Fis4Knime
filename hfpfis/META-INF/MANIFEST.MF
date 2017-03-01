@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HfpFis-Node extension for KNIME Workbench
+Bundle-SymbolicName: hfpfis;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-ClassPath: hfpfis.jar
+Bundle-Activator: hfpfis.HFPFISNodePlugin
+Bundle-Vendor: Antonio Di Mauro
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base
+Bundle-ActivationPolicy: lazy
+Export-Package: hfpfis
+Import-Package: port
+

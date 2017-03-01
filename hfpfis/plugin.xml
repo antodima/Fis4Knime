@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+<!--
+    <extension
+         point="org.knime.workbench.repository.categories">
+      <category
+            description="HFPSR's FisPro Function to make configuration for Learner"
+            level-id="hfpsr"
+            name="FisPro Partitioning"
+            path="/"/>
+   </extension>
+-->   
+	   <extension
+	         point="org.knime.workbench.repository.nodes">
+	      <node
+	            category-path="/"
+	            factory-class="hfpfis.HFPFISNodeFactory"
+	            id="hfpfis.HFPFISNodeFactory"/>
+	   </extension>
+   
+      <extension
+         point="org.knime.core.PortType">
+      <portType
+            color="#00b5df"
+            hidden="false"
+            name="fisModelPortType"
+            objectClass="port.FisModelPortObject"
+            objectSerializer="port.FisModelPortObject$Serializer"
+            specClass="port.FisModelPortObjectSpec"
+            specSerializer="port.FisModelPortObjectSpec$Serializer">
+      </portType>
+   </extension>   
+   
+</plugin>

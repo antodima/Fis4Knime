@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knimeNode icon="./default.png" type="Source"
+	xmlns="http://knime.org/node/v2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://knime.org/node/v2.10 http://knime.org/node/v2.10.xsd">
+	<name>Wm</name>
+
+	<shortDescription>
+		Wm generates a FIS.
+	</shortDescription>
+
+	<fullDescription>
+		<intro>
+			Wm generates a FIS using "Wang and Mendel"
+			FisPro Function. It
+			generated the FIS from a configuration (e.g.
+			configuration generated
+			by Hfpsr Node) and a dataset.
+			Click
+			<a
+				href="https://www7.inra.fr/mia/M/fispro/fisprodocen/LEARNING/node3.html#ind">here</a>
+			for more informations.
+		</intro>
+	</fullDescription>
+
+	<ports>
+		<inPort index="0" name="Configuration Fis Model">Configuration Fis Model</inPort>
+		<inPort index="1" name="Dataset">Dataset</inPort>
+		<outPort index="0" name="Fis Model">Fis Model</outPort>
+	</ports>
+</knimeNode>

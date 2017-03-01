@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FisTree-Node extension for KNIME Workbench
+Bundle-SymbolicName: fistree;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-ClassPath: fistree.jar
+Bundle-Activator: fistree.FISTREENodePlugin
+Bundle-Vendor: Antonio Di Mauro
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base
+Bundle-ActivationPolicy: lazy
+Export-Package: fistree
+Import-Package: port
+
