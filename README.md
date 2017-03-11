@@ -3,7 +3,7 @@
 # Description
 Every folder contains the sources of a Knime Plug-in and implements a FisPro routine.
 
-# Prerequisities
+# Prerequisites
 <pre>
 Eclipse IDE for Java Developers 4.6.1+ (Neon.1a)
 Knime SDK 3.2.1+ on Eclipse
