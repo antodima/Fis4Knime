@@ -13,7 +13,7 @@ JRE v1.8+
 # Installing
 <pre>
 1. Compile the project in the KNIME SDK environment
-2. Deploy it as a plugin KNIME through the functionality "Export deployable plugins and fragments" in the KNIME SDK environment
+2. Deploy it as a KNIME plugin through the functionality "Export deployable plugins and fragments" in the KNIME SDK environment
 </pre>
 You will find the plugins (as .jar) into the *ECLIPSE_INSTALLATION_PATH/dropins* directory
 
