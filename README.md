@@ -12,11 +12,11 @@ JRE v1.8+
 
 # Installing
 <pre>
-1. Compile the project in the KNIME SDK environment
-2. Deploy it as a KNIME plugin through the functionality "Export deployable plugins and fragments" in the KNIME SDK environment
+1. Import the sources in the Eclipse IDE
+2. Deploy it as a KNIME plugin through the functionality "Export deployable plugins and fragments" in the Eclipse environment
 </pre>
 You will find the plugins (as .jar) into the *ECLIPSE_INSTALLATION_PATH/dropins* directory
 
-# Acknowledgments
+# References
 * KNIME Website: <a href="www.knime.org">www.knime.org</a>
 * FISPRO Website: <a href="https://www7.inra.fr/mia/M/fispro/fispro2013_en.html">https://www7.inra.fr/mia/M/fispro/fispro2013_en.html</a>
