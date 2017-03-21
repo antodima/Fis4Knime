@@ -1,4 +1,4 @@
-# Fis4Knime
+# FisPro2Knime
 
 # Description
 Every folder contains the sources of a Knime Plug-in and implements a FisPro routine.
