@@ -35,7 +35,7 @@ To use the plugins properly, you must set a Workflow Variable:
   2. Click on 'Workflow Variables'
   3. Press 'Add'
   4. Set 'Variable name' as 'FIS_BIN_PATH' (without single quote)
-  5. Set 'Variable type' as 'STRING' (without single quote)
+  5. Set 'Variable type' as 'STRING'
   6. Put in 'Default value' the path of FisPro 'bin' folder
   7. Click OK
 </pre>
