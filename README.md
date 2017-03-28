@@ -1,7 +1,7 @@
 # FisPro2Knime
 
 # Description
-The sources folder contains the sources of a Knime Plug-in and implements a FisPro routine.
+The sources folder contains the sources of the Knime Plug-ins and each of these implements a FisPro routine.
 The jar folder contains the Knime Plug-ins jar files.
 
 # Prerequisites
